@@ -1,14 +1,21 @@
-{
-	"dbconfig": {
-		"driverclassname": "com.mysql.jdbc.Driver",
-		"driverclassname": "jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf8",
-		"driverclassname": "root",
-		"driverclassname": "123456"
-	},
-	"emailconfig": {
-		"host": "smtp.qq.com",
-		"username": "1047587931@qq.com",
-		"password": "ptiidajtsnjubeee",
-		"defaultencoding": "utf-8"
-	}
-}
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  mail:
+    host: smtp.qq.com
+    username: 1047587931@qq.com #这个是qq邮箱
+    password: ptiidajtsnjubeee #注意这个不是密码，是客户端授权码
+    default-encoding: utf-8 #这个是字符集,咱们用utf-8就可以了
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+	    
+		
+
