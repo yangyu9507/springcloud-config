@@ -1,0 +1,14 @@
+{
+	"dbconfig": {
+		"driverclassname": "com.mysql.jdbc.Driver",
+		"driverclassname": "jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf8",
+		"driverclassname": "root",
+		"driverclassname": "123456"
+	},
+	"emailconfig": {
+		"host": "smtp.qq.com",
+		"username": "1047587931@qq.com",
+		"password": "ptiidajtsnjubeee",
+		"defaultencoding": "utf-8"
+	}
+}
