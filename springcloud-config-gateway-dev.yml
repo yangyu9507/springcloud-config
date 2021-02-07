@@ -1,5 +1,5 @@
 ip:
   visit:
-    widows:
-      time-minuts: 1 
+    windows:
+      time-minutes: 1
       times: 5
